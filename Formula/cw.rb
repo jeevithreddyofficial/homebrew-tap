@@ -1,8 +1,8 @@
 class Cw < Formula
   desc "Keep your Mac awake with the lid closed while Claude Code works"
   homepage "https://github.com/jeevithreddyofficial/claude-awake"
-  url "https://github.com/jeevithreddyofficial/claude-awake/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "fec24b48ea5076a402d8bcecf4479c87324768dea14be259f0901f6b8a733381"
+  url "https://github.com/jeevithreddyofficial/claude-awake/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "73f6bfe9e5244344025f04473808602fc5376fb659c6f19ed3b2cb31db7bd457"
 
   depends_on :macos
 
@@ -17,6 +17,9 @@ class Cw < Formula
       cw        show whether stay-awake is ON or OFF
       cw-on     turn stay-awake ON and start Claude Code
       cw-off    turn stay-awake OFF
+
+      The first cw-on asks for your Mac password once (cw --setup),
+      then never again. Undo with: cw --unsetup
 
       Needs Claude Code: curl -fsSL https://claude.ai/install.sh | bash
     EOS
