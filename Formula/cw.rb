@@ -3,7 +3,6 @@ class Cw < Formula
   homepage "https://github.com/jeevithreddyofficial/claude-awake"
   url "https://github.com/jeevithreddyofficial/claude-awake/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "fec24b48ea5076a402d8bcecf4479c87324768dea14be259f0901f6b8a733381"
-  license "MIT"
 
   depends_on :macos
 
